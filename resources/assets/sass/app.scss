@@ -1,0 +1,44 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+html, body.frontpage {
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  transition: 200ms background-color, 200ms color;
+  &:hover {
+    background-color: transparent;
+    color: $brand-primary;
+  }
+}
+
+.frontpage {
+  background-image: url('../img/delf-renniel-rivera-273007.jpg');
+  background-size: cover;
+}
+
+.frontpage-header {
+  font-size: 48px;
+  color: #fafafa;
+}
+
+.frontpage-button {
+  font-size: 130%;
+  color: #212121;
+  &:hover {
+    color: #fafafa;
+  }
+}
+
+table td {
+  padding: 1rem;
+}
