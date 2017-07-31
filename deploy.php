@@ -33,11 +33,12 @@ task('defuckenate-dotenv', function () {
    run('rm /var/www/apply/current/.env');
    run('cp /var/www/apply/current/.env.production /var/www/apply/current/.env');
 });
+
 after('deploy:symlink', 'defuckenate-dotenv');
 after('deploy:symlink', 'artisan:config:cache');
+after('deploy:symlink', 'artisan:migrate');
 after('deploy:symlink', 'php-fpm:restart');
 
 // [Optional] if deploy fails automatically unlock.
 after('deploy:failed', 'deploy:unlock');
 
-//before('deploy:symlink', 'artisan:migrate'); //  we do our migrations manually, dammit!
