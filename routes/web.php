@@ -27,8 +27,6 @@ Route::get('/form', function () {
     return view('form');
 })->name('form');
 
-Route::post('/form', function () {
-    return 'kthnxbai';
-})->name('submit');
+Route::post('/form')->uses('ApplyController@create')->name('submit');
 
 

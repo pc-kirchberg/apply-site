@@ -7,5 +7,7 @@
 
 require('./bootstrap');
 
+require('intl-tel-input/build/js/intlTelInput');
+
 
 $("[data-toggle=\"popover\"]").popover();

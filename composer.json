@@ -9,7 +9,9 @@
         "barryvdh/laravel-ide-helper": "^2.4",
         "doctrine/dbal": "^2.6",
         "laravel/framework": "5.4.*",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+        "propaganistas/laravel-intl": "^1.2",
+        "propaganistas/laravel-phone": "^3.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
