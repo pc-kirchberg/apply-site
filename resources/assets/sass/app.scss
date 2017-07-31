@@ -6,7 +6,9 @@
 @import "variables";
 
 // Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "~intl-tel-input/build/css/intlTelInput.css";
 
 html, body.frontpage {
   width: 100%;

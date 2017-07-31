@@ -179,6 +179,9 @@ return [
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
+        Propaganistas\LaravelIntl\IntlServiceProvider::class,
+        Propaganistas\LaravelPhone\PhoneServiceProvider::class,
+
     ],
 
     /*
@@ -227,6 +230,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        'Country' => Propaganistas\LaravelIntl\Facades\Country::class
 
     ],
 
