@@ -1,6 +1,6 @@
 @extends('layouts.website')
 
-@section('title', 'Application Process')
+@section('title', 'Thank you for applying')
 
 @section('content')
   <div class="container">
