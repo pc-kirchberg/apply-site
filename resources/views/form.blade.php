@@ -1,13 +1,13 @@
 @extends('layouts.website')
 
-@section('title', 'Positions')
+@section('title', 'Application Form')
 
 @section('content')
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="page-header">
-          <h1>Apply Form</h1>
+          <h1>Application Form</h1>
         </div>
       </div>
     </div>
