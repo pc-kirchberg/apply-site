@@ -15,7 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,600" rel="stylesheet" type="text/css">
 
-  <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 </head>
 <body class="@yield('body-class')">
 <div class="flex-center position-ref full-height">
@@ -44,7 +44,7 @@
     @yield('content')
   </div>
 </div>
-<script src="{{ asset('/js/app.js') }}"></script>
+<script src="{{ mix('/js/app.js') }}"></script>
 @stack('js')
 </body>
 </html>
