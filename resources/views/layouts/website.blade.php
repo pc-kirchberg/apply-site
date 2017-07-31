@@ -8,7 +8,7 @@
 
   <meta property="og:title" content="@yield('title')" />
   <meta property="og:url" content="{{ Request::url() }}" />
-  <meta property="og:image" content="https://pupilscom-esl1.eu/wp-content/uploads/2015/11/cropped-Composition11.jpg" />
+  <meta property="og:image" content="https://pupilscom-esl1.eu/wp-content/uploads/2015/11/cropped-LOGO-sans-font-192x192.png" />
 
   <title>@yield('title')</title>
 
