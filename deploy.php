@@ -28,6 +28,11 @@ desc('Restart PHP-FPM service');
 task('php-fpm:restart', function () {
     run('sudo service php7.1-fpm restart');
 });
+
+after('deploy:symlink', function () {
+   run('rm .env');
+   run('cp .env.production .env');
+});
 after('deploy:symlink', 'artisan:config:cache');
 after('deploy:symlink', 'php-fpm:restart');
 
