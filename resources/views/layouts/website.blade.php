@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
+  <meta property="og:title" content="@yield('title')" />
+  <meta property="og:url" content="{{ Request::url() }}" />
+  <meta property="og:image" content="https://pupilscom-esl1.eu/wp-content/uploads/2015/11/cropped-Composition11.jpg" />
+
   <title>@yield('title')</title>
 
   <!-- Fonts -->
