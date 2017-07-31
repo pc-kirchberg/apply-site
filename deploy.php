@@ -29,10 +29,11 @@ task('php-fpm:restart', function () {
     run('sudo service php7.1-fpm restart');
 });
 
-after('deploy:symlink', function () {
-   run('rm .env');
-   run('cp .env.production .env');
+task('defuckenate-dotenv', function () {
+   run('rm /var/www/apply/current/.env');
+   run('cp /var/www/apply/current/.env.production /var/www/apply/current/.env');
 });
+after('deploy:symlink', 'defuckenate-dotenv');
 after('deploy:symlink', 'artisan:config:cache');
 after('deploy:symlink', 'php-fpm:restart');
 
