@@ -55,7 +55,7 @@
 
     <p><b>Only class reps can vote.</b> They will each be given a ballot paper as they come in. <a href="{{ asset('images/ballot-sample.png') }}">Click here to see a sample ballot paper.</a> They must put a mark next to each person, in either the "Yes", "Maybe" or "No" columns. If someone is applying for both Leisure Committee and a non-Leisure position, they will have two rows, one for each position. Each of these will be counted separately.</p>
 
-    <p>After the elections the votes will be counted by the Electoral Board. We will aim to inform the candidates on the same day, however there may be unforeseen delays. Candidates will be informed by email and, if they entered their phone number, by SMS.</p>
+    <p>After the elections the votes will be counted by the Electoral Board. We will aim to inform the candidates on the same day, however there may be unforeseen delays. Candidates will be informed by email and, if they entered their phone number, by text message.</p>
 
     <p><b>The election only determines which people make it into the Pupils' Committee, not their positions.</b></p>
 
