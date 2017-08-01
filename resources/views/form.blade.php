@@ -76,6 +76,7 @@
           <div class="form-group control-group">
             <label for="phone">Phone Number (optional, <a tabindex="6" href="#" role="button" data-toggle="popover"
                                                           data-trigger="focus"
+                                                          data-placement="top"
                                                           title="Enter phone number for SMS notifications"
                                                           data-content="If you enter your phone number, we can send you a notification via SMS if you're elected, in addition to an email. This is completely optional, and we'll delete your phone number from our servers after the election is over.">why?</a>)</label>
             <div class="controls">
