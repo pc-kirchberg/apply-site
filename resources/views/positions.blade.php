@@ -11,6 +11,13 @@
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p><blockquote>It should be noted that members aren't constrained to their responsibilities, and often do more than they are required to do. In addition to their duties stated above, members must support the other members as much as possible, especially when the workload is severely imbalanced.</blockquote></p>
+      </div>
+    </div>
+
     <div class="row">
       <div class="col-md-12">
         <h2>President</h2>
@@ -50,12 +57,6 @@
 
         <h2>Leisure Committee</h2>
         <p>The Leisure Committee <b>(4 persons)</b> organise the parties, discos, and other events throughout the year. They must remain in close contact with the rest of the PC as well as the Mamer PC.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        <p>It should be noted that members aren't constrained to their responsibilities, and often do more than they are required to do. In addition to their duties stated above, members must support the other members as much as possible, especially when the workload is severely imbalanced.</p>
       </div>
     </div>
   </div>
