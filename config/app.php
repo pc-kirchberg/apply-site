@@ -1,5 +1,7 @@
 <?php
 
+use Carbon\Carbon;
+
 return [
 
     /*
@@ -12,7 +14,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Apply'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,6 +54,9 @@ return [
     */
 
     'url' => env('APP_URL', 'http://localhost'),
+
+    'applications_start' => Carbon::create(2017, 9, 11, 0, 0, 0, 'Europe/Luxembourg'),
+    'applications_end' => Carbon::create(2017, 9, 17, 23, 59, 59, 'Europe/Luxembourg'),
 
     /*
     |--------------------------------------------------------------------------

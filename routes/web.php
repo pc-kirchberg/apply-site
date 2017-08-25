@@ -11,6 +11,10 @@
 |
 */
 
+use Carbon\Carbon;
+
+$BYPASS_KEY_HASH = '90d94eb53c27a8fb24b7ed476ba6d0ce3e8bff90';
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -23,7 +27,16 @@ Route::get('/positions', function () {
     return view('positions');
 })->name('positions');
 
-Route::get('/form', function () {
+Route::get('/form', function (Illuminate\Http\Request $request) use ($BYPASS_KEY_HASH) {
+    if (sha1($request->input('bypass_deadline_do_not_use_or_you_will_be_fired')) === $BYPASS_KEY_HASH) {
+        return view('form');
+    }
+    if (config('app.applications_start')->gt(Carbon::now())) {
+        return view('form.too_early');
+    }
+    if (config('app.applications_end')->lt(Carbon::now())) {
+        return view('form.too_late');
+    }
     return view('form');
 })->name('form');
 
