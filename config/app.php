@@ -55,9 +55,6 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
-    'applications_start' => Carbon::create(2017, 9, 11, 0, 0, 0, 'Europe/Luxembourg'),
-    'applications_end' => Carbon::create(2017, 9, 17, 23, 59, 59, 'Europe/Luxembourg'),
-
     /*
     |--------------------------------------------------------------------------
     | Application Timezone

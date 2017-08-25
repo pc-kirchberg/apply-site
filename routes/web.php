@@ -31,10 +31,10 @@ Route::get('/form', function (Illuminate\Http\Request $request) use ($BYPASS_KEY
     if (sha1($request->input('bypass_deadline_do_not_use_or_you_will_be_fired')) === $BYPASS_KEY_HASH) {
         return view('form');
     }
-    if (config('app.applications_start')->gt(Carbon::now())) {
+    if (Carbon::create(2017, 9, 11, 0, 0, 0, 'Europe/Luxembourg')->gt(Carbon::now())) {
         return view('form.too_early');
     }
-    if (config('app.applications_end')->lt(Carbon::now())) {
+    if (Carbon::create(2017, 9, 17, 23, 59, 59, 'Europe/Luxembourg')->lt(Carbon::now())) {
         return view('form.too_late');
     }
     return view('form');
