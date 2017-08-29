@@ -12,7 +12,7 @@
       </div>
     </div>
     <h2>Timeline</h2>
-    NONE OF THE TIMES ARE FINAL THEY WILL ALL CHANGE GODDAMNIT
+    <blockquote><strong>The dates below are <em>unconfirmed</em> and will <em>almost definitely change</em>. Please do not make any plans based on these dates.</strong></blockquote>
     <table>
       <tr>
         <td><b>Monday 11 September</b></td>
@@ -20,7 +20,7 @@
         <td>Applications open via this website</td>
       </tr>
       <tr>
-        <td><b>Monday 11 September</b></td>
+        <td><b>Tuesday 12 September</b></td>
         <td><b>11:10-12:15</b></td>
         <td>Public information meeting for people interested in applying in <b>E009</b></td>
       </tr>
