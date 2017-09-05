@@ -10,7 +10,7 @@
           <h1>You're too early!</h1>
         </div>
         <p>We appreciate the enthusiasm, but applications haven't opened yet.</p>
-        <p>Check back here soon for the date.</p>
+        <p>Applications open on September 11 at 00:00.</p>
       </div>
     </div>
   </div>

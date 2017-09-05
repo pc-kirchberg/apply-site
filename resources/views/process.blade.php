@@ -12,7 +12,6 @@
       </div>
     </div>
     <h2>Timeline</h2>
-    <blockquote><strong>The dates below are <em>unconfirmed</em> and will <em>almost definitely change</em>. Please do not make any plans based on these dates.</strong></blockquote>
     <table>
       <tr>
         <td><b>Monday 11 September</b></td>
@@ -22,7 +21,7 @@
       <tr>
         <td><b>Tuesday 12 September</b></td>
         <td><b>11:10-12:15</b></td>
-        <td>Public information meeting for people interested in applying in <b>E009</b></td>
+        <td>Public information meeting for people interested in applying in <b>F-011</b></td>
       </tr>
       <tr>
         <td><b>Sunday 17 September</b></td>
@@ -32,7 +31,7 @@
       <tr>
         <td><b>Wednesday 20 September</b></td>
         <td><b>11:10-13:00</b></td>
-        <td>Elections</td>
+        <td>Elections: Salle des Fêtes. All class reps and candidates must attend.</td>
       </tr>
       <tr>
         <td><b>Wednesday 20 September</b></td>
