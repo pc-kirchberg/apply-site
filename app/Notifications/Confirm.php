@@ -42,6 +42,7 @@ class Confirm extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
+                    ->from('apply@pupilscom-esl1.eu', 'Pupils\' Committee')
                     ->subject('Application confirmed')
                     ->greeting('Thank you for applying!')
                     ->line('Thank you for applying to join the Pupils\' Committee.')
