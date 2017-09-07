@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Application;
+use App\Notifications\Confirm;
 use Illuminate\Http\Request;
 
 class ApplyController extends Controller
@@ -20,6 +21,8 @@ class ApplyController extends Controller
 
         /** @noinspection PhpDynamicAsStaticMethodCallInspection */
         $application = Application::create($request->all());
+
+        $application->notify(new Confirm());
 
         return view('thankyou', ['sms' => $request->has('phone')]);
     }
