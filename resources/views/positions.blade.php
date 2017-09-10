@@ -33,7 +33,7 @@
         <h3>Head of Internal</h3>
         <p>The Head of Internal oversees internal affairs within the school. They, along with the Internal Committee, must book rooms when needed, assist with sales, posters, organising class rep meetings, etcetera. </p>
         <h3>Poster Designers</h3>
-        <p>The Poster Designers <b>(2 persons)</b>, along with the Head of Internal, form the Internal Committee. They design posters for the PC’s various activities. In addition to this, they assist the Head of Internal with their work, should they need it.</p>
+        <p>The Poster Designers <b>(2 persons)</b> design posters for the PC’s various activities. In addition to this, they assist the Head of Internal with their work, should they need it.</p>
         <h3>Internal Relations</h3>
         <p>The Internal Relations member communicates with the students of the school and their groups and/or clubs. They are charged with relations between the PC and these groups, and to assist them in case they need it (financial support, advertising, etc.).</p>
 
