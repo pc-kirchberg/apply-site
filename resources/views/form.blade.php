@@ -38,6 +38,7 @@
           </div>
           <div class="form-field">
             <label for="pos1">Which position would you go for, should you be elected?</label>
+            <small>Bear in mind that this is only an indication of preference and not a final selection. The final positions will be decided during the committee nomination and voting process</small>
             <select name="pos1" id="pos1" class="form-control" required>
               <option value="president">President</option>
               <option value="vice-president">Vice-President</option>
