@@ -17,6 +17,8 @@ class ApplyController extends Controller
             'pos2' => 'required',
             'email' => 'required',
             'phone' => 'nullable|phone',
+        ], [
+            'pos1.required' => 'Your two positions must be different'
         ]);
 
         /** @noinspection PhpDynamicAsStaticMethodCallInspection */
