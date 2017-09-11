@@ -184,6 +184,8 @@ return [
         Propaganistas\LaravelIntl\IntlServiceProvider::class,
         Propaganistas\LaravelPhone\PhoneServiceProvider::class,
 
+        Sentry\SentryLaravel\SentryLaravelServiceProvider::class,
+
     ],
 
     /*
@@ -233,7 +235,9 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        'Country' => Propaganistas\LaravelIntl\Facades\Country::class
+        'Country' => Propaganistas\LaravelIntl\Facades\Country::class,
+
+        'Sentry' => Sentry\SentryLaravel\SentryFacade::class,
 
     ],
 

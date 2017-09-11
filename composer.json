@@ -12,7 +12,9 @@
         "laravel/tinker": "~1.0",
         "nexmo/client": "^1.0",
         "propaganistas/laravel-intl": "^1.2",
-        "propaganistas/laravel-phone": "^3.0"
+        "propaganistas/laravel-phone": "^3.0",
+        "sentry/sentry": "^1.7",
+        "sentry/sentry-laravel": "^0.8.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
