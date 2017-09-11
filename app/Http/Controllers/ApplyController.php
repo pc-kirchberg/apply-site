@@ -9,6 +9,10 @@ use Illuminate\Http\Request;
 class ApplyController extends Controller
 {
     public function create(Request $request) {
+        if (app()->bound('sentry')) {
+            app('sentry')->user_context(['email' => $request->input('email')]);
+        }
+
         $this->validate($request, [
             'first_name' => 'required',
             'last_name' => 'required',
