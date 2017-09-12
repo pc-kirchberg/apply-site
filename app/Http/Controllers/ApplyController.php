@@ -17,7 +17,7 @@ class ApplyController extends Controller
             'first_name' => 'required',
             'last_name' => 'required',
             'class' => 'required',
-            'pos1' => 'required|different:pos2',
+            'pos1' => 'required',
             'pos2' => 'required',
             'email' => 'required',
             'phone' => 'nullable|phone',
