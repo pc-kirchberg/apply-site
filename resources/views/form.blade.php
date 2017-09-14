@@ -16,7 +16,7 @@
         @if (config('app.fallback_google_form'))
           <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSdr_SDvX6aDxxD0VEcb-BJYGimRT2Bu9B2VLgkM_hysl8iX2w/viewform?embedded=true"
-              width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...
+              width="800" height="1600" frameborder="0" marginheight="0" marginwidth="0">Loading...
           </iframe>
         @else
           @if ($errors->any())
