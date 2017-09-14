@@ -94,6 +94,8 @@ return [
 
     'fallback_locale' => 'en',
 
+    'fallback_google_form' => true,
+
     /*
     |--------------------------------------------------------------------------
     | Encryption Key
